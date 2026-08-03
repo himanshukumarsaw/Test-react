@@ -13,7 +13,10 @@ const home = () => {
       <div className="hero-details">
         <h2>Student Name:{Student.StudentName}</h2>
         <h3>Roll Number:{Student.RollNumber}</h3>
-        <h3>Admission Number:{Student.AdmissionNumber}</h3>  Branch Semester College Name
+        <h3>Admission Number:{Student.AdmissionNumber}</h3> 
+        <h3>Branch:{Student.Branch}</h3>
+        <h3> Semester:{Student.Semester}</h3> 
+        <h3>College Name:{Student.CollegeName}</h3>
       </div>
       <Link to="/questionpage">
         <button>Start</button>
