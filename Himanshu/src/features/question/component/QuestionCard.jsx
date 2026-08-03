@@ -1,8 +1,12 @@
 import React from 'react'
 
-const QuestionCard = () => {
+const QuestionCard = ({ question }) => {
   return (
-    <div></div>
+    <div className='question-card'>
+      <h3>question number: {question.id}</h3>
+      <p><strong>question:</strong> {question.question}</p>
+      <p><strong>answer:</strong> {question.answer}</p>
+    </div>
   )
 }
 
