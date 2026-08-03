@@ -1,5 +1,5 @@
 import React from 'react'
-
+import QuestionCard from "./component/QuestionCard";
 const QuestionPage = () => {
   return (
     <div>
