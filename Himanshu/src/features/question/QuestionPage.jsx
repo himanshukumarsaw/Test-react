@@ -2,7 +2,14 @@ import React from 'react'
 
 const QuestionPage = () => {
   return (
-    <div>QuestionPage</div>
+    <div>
+      <h2>Question:</h2>
+      <div>
+        {
+          
+        }
+      </div>
+    </div>
   )
 }
 

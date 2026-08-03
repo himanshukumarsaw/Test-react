@@ -8,6 +8,7 @@ const home = () => {
       <div className="hero-image">
         <img
           src={profileImage}
+          alt="himanshusaw"
           className="profile-image"
           height="120px"
         />
