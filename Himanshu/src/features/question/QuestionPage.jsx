@@ -12,7 +12,7 @@ const QuestionPage = () => {
             <QuestionCard key={question.id} question={question} />
           ))
         ) : (
-          <p>No Questions Available.</p>
+          <p>no questions available.</p>
         )}
       </div>
     </div>

@@ -1,61 +1,52 @@
-[{
-      "id": 1,
-      "question": "What is React?",
-      "answer":
-        "React is a JavaScript library used for building fast and interactive user interfaces."
-    },
-    {
-      "id": 2,
-      "question": "What is JSX?",
-      "answer":
-        "JSX (JavaScript XML) is a syntax that allows us to write HTML-like code inside JavaScript."
-    },
-    {
-      "id": 3,
-      "question": "What is a Component?",
-      "answer":
-        "A Component is a reusable piece of UI that returns JSX."
-    },
-    {
-      "id": 4,
-      "question": "What are Props?",
-      "answer":
-        "Props are read-only values passed from a parent component to a child component."
-    },
-    {
-      "id": 5,
-      "question": "What is useState()?",
-      "answer":
-        "useState() is a React Hook used to create and manage state in functional components."
-    },
-    {
-      "id": 6,
-      "question": "What is the purpose of React Router?",
-      "answer":
-        "React Router enables navigation between different pages in a React application without reloading the page."
-    },
-    {
-      "id": 7,
-      "question": "Why do we use map() in React?",
-      "answer":
-        "map() is used to render multiple components by looping through an array."
-    },
-    {
-      "id": 8,
-      "question": "Why is the key prop important while rendering a list?",
-      "answer":
-        "The key prop helps React identify which items have changed, been added, or removed, improving rendering performance."
-    },
-    {
-      "id": 9,
-      "question": "What is Conditional Rendering?",
-      "answer":
-        "Conditional rendering allows components to render different UI based on specific conditions."
-    },
-    {
-      "id": 10,
-      "question": "What is the difference between State and Props?",
-      "answer":
-        "State is managed within a component and can change, while Props are passed from a parent component and are read-only."
-    }
+[
+  {
+    "id": 1,
+    "question": "What is React?",
+    "answer": "React is a JavaScript library that helps us create websites easily."
+  },
+  {
+    "id": 2,
+    "question": "What is JSX?",
+    "answer": "JSX is a way to write HTML inside JavaScript in React."
+  },
+  {
+    "id": 3,
+    "question": "What is a Component?",
+    "answer": "A component is a small reusable part of a website, like a button or navbar."
+  },
+  {
+    "id": 4,
+    "question": "What are Props?",
+    "answer": "Props are used to send data from one component to another."
+  },
+  {
+    "id": 5,
+    "question": "What is useState()?",
+    "answer": "useState() is used to store and update data in a React component."
+  },
+  {
+    "id": 6,
+    "question": "What is the purpose of React Router?",
+    "answer": "React Router is used to move from one page to another without refreshing the website."
+  },
+  {
+    "id": 7,
+    "question": "Why do we use map() in React?",
+    "answer": "We use map() to show many items from an array on the screen."
+  },
+  {
+    "id": 8,
+    "question": "Why is the key prop important while rendering a list?",
+    "answer": "The key helps React identify each item in the list and update it correctly."
+  },
+  {
+    "id": 9,
+    "question": "What is Conditional Rendering?",
+    "answer": "Conditional rendering means showing different things based on a condition."
+  },
+  {
+    "id": 10,
+    "question": "What is the difference between State and Props?",
+    "answer": "State can change inside a component, but Props come from the parent component and cannot be changed."
+  }
 ]
